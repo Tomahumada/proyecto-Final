@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500;700&display=swap");
+.parrafosCE {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0 60px;
+  font-weight: 500; }
+
+.colorH {
+  background-color: #a2cef1; }
+
+.botonC {
+  background-color: #222; }
+
+.colorF {
+  background-color: azure; }
+
+.parrafosCE {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0 60px;
+  font-weight: 500; }
+
+* {
+  font-family: sans-serif; }
+
+body::-webkit-scrollbar {
+  width: 8px; }
+
+body::-webkit-scrollbar-thumb {
+  background: #457b9d;
+  border-radius: 20px; }
+
+.principal1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px; }
+
+.principal2 {
+  width: 70%;
+  height: 80%; }
+
+/*HEADER*/
+.tamLogo {
+  width: 100px;
+  margin: 0 0 0 10px; }
+
+.tamLogo:hover {
+  animation: rotar 1s infinite; }
+
+.navbar-toggler-icon:hover {
+  animation: rotar 1s infinite; }
+
+@keyframes rotar {
+  0% {
+    transform: rotate(0deg); }
+  20% {
+    transform: rotate(6deg); }
+  40% {
+    transform: rotate(-6deg); }
+  60% {
+    transform: rotate(6deg); }
+  80% {
+    transform: rotate(6deg); }
+  100% {
+    transform: rotate(-6deg); } }
+
+.ancla {
+  color: #666;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 10px;
+  padding: 10px 60px;
+  transition: .4s;
+  border-radius: 10px; }
+
+li .ancla:hover {
+  color: #fff;
+  box-shadow: 6px 6px 10px #fff;
+  background-color: #000;
+  border-radius: 10px; }
+
+li .ancla:focus {
+  background-color: #333; }
+
+/*PAGINA DE INICIO*/
+/*HERO*/
+.fondo {
+  padding: 80px 0px;
+  width: 69%;
+  margin: auto;
+  background-color: #fff;
+  opacity: 78%; }
+
+.fondoPri {
+  background-image: url(/img/fondo.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px; }
+
+.fondoH {
+  box-shadow: 1px 1px 10px black;
+  border-radius: 0 0 5px 5px;
+  position: sticky;
+  top: 0;
+  z-index: 2; }
+
+.card {
+  box-shadow: 2px 2px 10px black;
+  background-color: #ffba69;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: .2s;
+  text-align: center;
+  margin: 5px 0; }
+
+.card:hover {
+  box-shadow: 5px 5px 15px black; }
+
+.botones1 {
+  width: 100%;
+  align-items: center;
+  color: #fff;
+  transition: all .3s; }
+
+.botones1:hover {
+  background-color: #a2cef1;
+  color: black; }
+
+.botones {
+  width: 85%;
+  align-items: center;
+  color: #fff;
+  transition: all .4s; }
+
+.botones:hover {
+  background-color: #a2cef1;
+  color: black; }
+
+.subtitulo {
+  text-align: center;
+  font-size: 50px;
+  margin: 115px 0 30px 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
+
+.subtitulo1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 10px 0 15px 0;
+  font-weight: bold; }
+
+.piedePag {
+  background-color: #fff;
+  opacity: 85%;
+  padding: 50px 0;
+  margin: 60px 0; }
+
+.fondodecontacto {
+  background-color: #fff;
+  opacity: 88%; }
+
+.main {
+  margin: 0px 0 100px 0; }
+
+.titulo {
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif; }
+
+.promos {
+  margin: 30px 0 10px 0;
+  width: 30%; }
+
+/*PARTE DE LAS PROMOCIONES*/
+.promociones {
+  background-color: #fff;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 30px 10px;
+  margin: 90px 0px 90px 0;
+  opacity: 90%; }
+
+.promText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; }
+
+.textprom {
+  padding: 0 40px; }
+
+/*PARTE DEL FOOTER*/
+.redes {
+  width: 90px;
+  padding: 15px 20px; }
+
+.redes:hover {
+  animation: rotar 1s infinite; }
+
+.footer {
+  text-align: center;
+  align-items: center; }
+
+/*PAGINA DE CONTACTO*/
+.formularioContacto {
+  border: 3px solid black;
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  margin: auto auto 30px auto;
+  padding: 20px 0; }
+
+.btnContact {
+  margin: 10px 10px;
+  font-size: 15px;
+  color: #fff;
+  padding: 7px 20px;
+  border: #fff solid 3px;
+  border-radius: 10px 0;
+  transition: .2s; }
+
+.btnContact:hover {
+  background-color: #a2cef1;
+  border: 3px solid #000;
+  color: #222222;
+  border-radius: 10px; }
+
+.input-contact {
+  background-color: #fff;
+  width: 45%;
+  margin: auto;
+  color: #000;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 7px;
+  transition: .2s; }
+
+.input-contact:hover {
+  background-color: #a0cef1;
+  color: #000; }
+
+.input-contact:focus {
+  background-color: #a2cef1;
+  color: #000; }
+
+/*PAGINA SOBRE NOSOTROS*/
+.imagen-pres {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-top: 1px; }
+
+.ubiTrabajo {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0 100px 0; }
+
+.trabajamos {
+  font-size: 40px; }
+
+.ubicacion {
+  font-size: 40px; }
+
+.mapa {
+  width: 90%; }
+
+.video {
+  width: 90%; }
+
+.imgWhats {
+  width: 80px;
+  position: fixed;
+  bottom: 4px;
+  right: 4px; }
+
+/*ESTE MEDIA SIRVE PARA ACOMODAR ALGUNAS COSAS*/
+@media (max-width: 768px) {
+  .fondo {
+    width: 100%; }
+  .fondoPri {
+    background-image: url(/img/logoNike.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; }
+  h1 {
+    width: 100%;
+    margin: auto; }
+  .botones1 {
+    width: 85%;
+    margin: auto; }
+  .botones {
+    width: 85%;
+    margin: auto; }
+  .input-contact {
+    width: 70%;
+    margin: auto; }
+  .titulo {
+    font-size: 40px; }
+  .subtitulo1 {
+    font-size: 2.5rem; }
+  .parrafosCE {
+    font-size: 15px;
+    width: 100%;
+    padding: 0 10px; }
+  .video {
+    width: 100%;
+    height: 200px; }
+  .mapa {
+    width: 100%;
+    height: 250px; }
+  .imgWhats {
+    width: 50px;
+    position: fixed;
+    bottom: 4px;
+    right: 4px; } }
