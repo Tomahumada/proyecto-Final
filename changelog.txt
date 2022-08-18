@@ -1,7 +1,0 @@
-Se realizaron los siguentes cambios para el desafio de SASS II
-
-    -Se creo e importo _maps.scss. ahi se crearon clases que se aplicaron en el fondo de todas las paginas, en el color de todos los botones y en el color de el header de todas las paginas.
-    
-    -Se creo e importo el _mixin.scss. ahi se creo una clase que se aplico en todos los subtitulos que hay en las paginas de zapatillas.html, ropa.html y sobreNosotros.html.
-
-    

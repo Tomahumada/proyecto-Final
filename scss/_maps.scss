@@ -1,9 +1,14 @@
 @import "mixin";
 
-$mapsRedes:(colorH: #a2cef1, botonC: #222, colorF:azure);  
+$mapsRedes: (
+    colorH: #a2cef1,
+    botonC: #222,
+    colorF:azure
+);
 
-@each $red, $color in $mapsRedes{ 
-    .#{$red}{
+@each $red,
+$color in $mapsRedes {
+    .#{$red} {
         background-color: $color;
     }
 }
